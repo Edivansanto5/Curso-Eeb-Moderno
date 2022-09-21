@@ -9,3 +9,5 @@ b = 'Salvador';
 console.log(a);
 console.log(b);
 console.log(b);
+
+console.log(a + b);
