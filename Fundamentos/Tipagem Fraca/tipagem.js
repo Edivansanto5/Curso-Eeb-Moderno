@@ -8,4 +8,3 @@ numero = 'maciana'
 console.log(typeof nome);
 console.log(typeof numero);
 
-console.log('testes');
