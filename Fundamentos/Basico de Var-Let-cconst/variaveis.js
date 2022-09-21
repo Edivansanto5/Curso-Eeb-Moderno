@@ -10,3 +10,5 @@ numero03 = 67
 console.log(numero);
 console.log(nuimero02);
 console.log(numero03);
+
+// proxima aula e tipagem fraca
