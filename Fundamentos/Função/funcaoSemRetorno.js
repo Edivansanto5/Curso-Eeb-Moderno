@@ -26,6 +26,7 @@ function media(){
     }else{
         console.log('reprovado Direto ');
     }
+    console.log('fim do programa!!!');
 
 }
 media()
