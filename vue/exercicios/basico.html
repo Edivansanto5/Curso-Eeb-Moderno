@@ -8,7 +8,10 @@
 </head>
 <body class="exercicio">
   <div id="app">
-    <p> 1) {{ 'Ola meninas'}}</p>
+    <p> 1) {{ saudacao}}</p>
+    <p> 2) Meu nome  é: {{nome}}</p>
+    <p> 3) Meu sobre nome é {{sobreNome}}</p>
+    <p> 4) Minha tenho {{idade}} anos, e  sou do sexo {{sexo}}</p>
   
   </div>
 
@@ -16,12 +19,14 @@
         new Vue({
             el:"#app",
             data:{
+                saudacao:'Bom dia',
                 nome:'Mariana',
                 sobreNome:'Sabrinne de sousa',
                 idade:34,
                 sexo:'Feminina',
                 altura:1.67,
-                nqscionalidade:'Mexicana',
+                nascionalidade:'Mexicana'
+            
             }
         })
     </script>
