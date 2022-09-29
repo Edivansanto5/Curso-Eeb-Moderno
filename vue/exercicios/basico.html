@@ -12,7 +12,7 @@
     <p> 2) Meu nome  é: {{nome}}</p>
     <p> 3) Meu sobre nome é {{sobreNome}}</p>
     <p> 4) Minha tenho {{idade}} anos, e  sou do sexo {{sexo}}</p>
-  
+    <p> 5) hora exata{{horaCerta()}}</p>
   </div>
 
     <script>
@@ -27,6 +27,11 @@
                 altura:1.67,
                 nascionalidade:'Mexicana'
             
+            },
+            methods:{
+                horaCerta(){
+                    return new Date().toLocaleString()
+                }
             }
         })
     </script>
